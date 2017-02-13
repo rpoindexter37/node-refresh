@@ -15,6 +15,7 @@ const
 
   var Trip = mongoose.model('Trip', {
     start: Date,
+    locationInfo: {}
     end: Date,
     topMPH: Number,
   })
